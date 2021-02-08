@@ -13,3 +13,8 @@ python3.8 -m venv /Users/niallsheppard/virtual_environment
 (base) niallsheppard@Nialls-Air ~ % 
 
 http://localhost:8050
+    
+git init
+git add .
+heroku create new-app
+git push heroku master
