@@ -18,3 +18,14 @@ git init
 git add .
 heroku create new-app
 git push heroku master
+
+mkdir
+
+#django
+django-admin startproject mysite
+python manage.py startapp polls
+python manage.py makemigrations polls
+python manage.py migrate
+python manage.py sqlmigrate polls 0001
+python manage.py shell
+python manage.py createsuperuser
