@@ -18,6 +18,7 @@ git init
 git add .
 heroku create new-app
 git push heroku master
+heroku apps:destroy
 
 mkdir
 
